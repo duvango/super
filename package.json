@@ -1,0 +1,28 @@
+{
+  "name": "apisuper",
+  "version": "1.0.0",
+  "description": "api para control de supermercado",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon --inspect ./src/app.js",
+    "test": "test"
+  },
+  "keywords": [
+    "api",
+    "super"
+  ],
+  "dependencies": {
+    "body-parser":"^1.19.0",
+    "express":"4.17.1",
+    "mongoose":"^6.0.9",
+    "morgan":"1.10.0"
+  },
+  "devDependencies": {
+    "nodemon":"2.0.13"
+  },
+  "engines": {
+    "node": "16.10.0"
+  },
+  "author": "coders",
+  "license": "ISC"
+}
